@@ -1,0 +1,86 @@
+Q1. 
+6 19
+
+Q2.
+sti = input("Enter the String")
+print("Lenght of the string is: ",len(sti))
+
+Q3.
+s1 = int(input("Enter the number"))
+s2 = int(input("Enter the number"))
+print("Sum is: ",s1+s2," Difference is : ",s1-s2)
+
+
+Q4.
+abde
+
+Q5. Duplicate Question(Q4)
+abde
+
+Q6.
+'abababab'
+
+Q7.
+ab
+ab
+ab
+ab
+
+Q8.
+s = input('Enter String :')
+n = int(input('Enter number :')) 
+c = s+'\n'
+print(c*n)
+
+
+Q9.
+Gaurav
+None
+
+Q10.
+<class 'int'>
+
+Q11.
+<class 'str'>
+22
+
+Q12.
+sqrt
+
+
+Q13.
+import math as m
+num = int(input("Enter any number :"))
+print(m.sqrt(num))
+
+Q14.
+p, q, r ,s = input("Enter a three value with space : ").split()
+p =int(p)
+q =int(q)
+r =int(r)
+s =int(s)
+print('Average is :',(p+q+r+s)/4)
+
+Q15.
+abs(x, /)
+    Return the absolute value of the argument.
+
+
+Q16.
+__main__
+
+Q17.
+Traceback (most recent call last):
+  File "dem.py", line 1, in <module>
+    print(_name__)
+NameError: name '_name__' is not defined
+
+
+Q18.
+N
+
+Q19.
+__main__
+builtins
+int
+

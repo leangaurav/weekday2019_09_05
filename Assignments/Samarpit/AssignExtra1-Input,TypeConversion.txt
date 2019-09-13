@@ -1,0 +1,78 @@
+Q1. 
+tempf = float(input('Enter temperature in Fahrenheit :'))
+celcius = ((tempf-32)*5)/9
+print(celcius)
+
+
+Q2. 
+num = int(input('Enter any no. :'))
+print("Sqauare",num**2," CUbe :",num**3)
+
+
+Q3. 
+num1 = int(input('Enter any no. :'))
+num2 = int(input('Enter any no. :'))
+print("Result :",(num1**2) + (num2**2) )
+
+Q4. 
+n = int(input('Enter any no. :'))
+m = int(input('Enter any no. :'))
+print("Result :",(m**n)," Pow:", pow(m,n) )
+
+Q5. 
+P ,R , T = input('Enter 3 values using space :').split()
+SI = (int(P)*float(R)*int(T))/100
+print(SI)
+
+Q6. 
+
+
+Q7. 
+n = int(input('Enter n :'))
+SUMN = (n*(n+1))/2
+print(SUMN)
+
+
+Q8.
+n1 = int(input('Enter number :')) 
+n2 = int(input('Enter number :')) 
+print("Initialy",n1,n2)
+temp =0
+temp = n2
+n2 =n1
+n1 = temp
+print("After Swap",n1,n2)
+
+
+# without temp
+n1 = int(input('Enter number :')) 
+n2 = int(input('Enter number :')) 
+print("Initially",n1,n2)
+n1,n2=n2,n1
+print("After Swap",n1,n2)
+#print(dir(str))
+
+Q9. 
+
+
+Q10.
+n = input('Enter value :')
+ASCIIV = ord(n)
+print(ASCIIV)
+
+
+Q11.
+import math 
+math.pi
+area = float(input('Enter area :')) 
+print("Radius :",((area)/math.pi)**0.5)
+print("Circum :",(2*math.pi)*(((area)/math.pi)**0.5))
+
+Q12. 
+s1 = int(input("Enter marks"))
+s2= int(input("Enter marks"))
+s3= int(input("Enter marks"))
+s4 =int(input("Enter marks"))
+s5= int(input("Enter marks"))
+print(((s1+s2+s3+s4+s5)/(5*100))*100)
+ 

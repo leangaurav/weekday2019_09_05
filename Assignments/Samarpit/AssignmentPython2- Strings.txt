@@ -1,0 +1,86 @@
+Q1.
+
+1. d
+2. detneirO tcejbO si nohtyP
+3. Python is Object Oriente
+4. Nothing will be printed
+5. on is 
+
+
+Q2.
+IndexError: string index out of range
+
+No String is there. So there is no index also for the same which will not be able to search it.
+
+Q3.
+It will throw an error because in print statement, there is lower case s. It should be capital S
+
+
+Q4.
+a)
+6
+abc
+3
+
+b)
+['a#b#c#d#']
+['a', 'b', 'c', 'd', '']
+a$b$c$d$
+
+
+c)
+av
+
+d)
+False
+
+e)
+0, 1, 2
+
+f)
+abcda
+0 ,0 ,1 ,
+
+Q5.
+stt = input('Input a string : ')
+stt.replace(' ','')
+
+Q6.
+Its an null list which not assigned to variable
+
+Q7.
+print(dir(str))
+
+or in table format
+
+import pandas as pd
+mm = pd.DataFrame(dir(str))
+mm
+
+Q8.
+a = 'rstrip'
+a in dir(str)
+
+
+Q9.
+
+
+Q10.
+stt = input('Input a string : ')
+print(stt.replace(' ','\n'))
+
+Q11.
+stt = input('Enter your full name : ')
+stt = stt.upper()
+a = stt.split()
+for i in range(len(a)):
+    print(a[i],len(a[i]))
+
+
+
+Q12.
+Strr = input("Enter the String :")
+lenght_of_string = len(Strr)
+S1 = Strr[0:round(lenght_of_string / 2)]
+S2 = Strr[round(lenght_of_string / 2):]
+print(S1," ", S2)
