@@ -1,0 +1,47 @@
+Q1.
+t = list(t)
+
+Q2.
+T = (8,6,4,2)
+L = [1,3,5,7]
+L.append(list(T))
+print(L)
+
+Q3.
+-The literal syntax of tuples is shown by parentheses () whereas the literal syntax of lists is shown by square brackets [].
+-Lists has variable length, tuple has fixed length.
+-List has mutable nature, tuple has immutable nature.
+-List has more functionality than the tuple.
+
+
+Q4.
+l = ['a', 'd', 'c', 'A', 'C']
+l.reverse()
+l
+
+Q5.
+l = [10,11,20, 21,30, 31, 40, 41]
+l[1:len(l):2]
+
+Q6.
+-- copy a list by slicing - example (b = a[:])
+-- variablename.copy()
+
+Q7.
+a
+5
+
+Q8.
+[1, 4, 6, 8]
+
+
+Q9.
+[1, 3, 4, [7, 9]]
+[1, 3, 4, [7, 9], 11, 13]
+
+Q10.
+
+<class 'tuple'>
+<class 'int'>
+<class 'int'>
+<class 'tuple'>
